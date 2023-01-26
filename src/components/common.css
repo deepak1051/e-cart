@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  background-color: #100f0f;
+  justify-content: space-around;
+  align-items: center;
+  color: #f1f1f1;
+  padding: 1rem;
+  font-size: 1.3rem;
+}
+.header_content {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  color: #f1f1f1;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+footer {
+  background-color: teal;
+  padding: 0.1rem;
+  text-align: center;
+}
+
+.badge {
+  margin-left: 5px;
+  background-color: deeppink;
+  font-size: 15px;
+  padding: 2px;
+  border-radius: 20%;
+
+  font-weight: bold;
+}
