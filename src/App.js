@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Header />
       <Routes>
         <Route element={<AllProducts />} path='/' />
