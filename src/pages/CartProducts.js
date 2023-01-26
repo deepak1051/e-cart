@@ -2,7 +2,7 @@ import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { Link } from 'react-router-dom'
 import './cartProducts.css'
-import { addToCart, removeToCart, resetCart } from '../store/index'
+import { addToCart, removeToCart, resetCart } from '../store/index.js'
 import { MdCancel } from "react-icons/md"
 const CartProducts = () => {
   const { data } = useSelector(state => state.cart)

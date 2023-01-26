@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
 import { addToCart, fetchAllProducts } from '../store'
 import './allProducts.css'
-import Loader from '../components/Loader'
+import Loader from '../components/Loader.js'
 
 import { ToastContainer, toast } from 'react-toastify';
 const AllProducts = () => {
