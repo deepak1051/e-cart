@@ -19,9 +19,9 @@ const CartProducts = () => {
     dispatch(resetCart())
   }
   return (
-    <div>
+    <div className='cart-main-container'>
 
-      {data.length === 0 && <h1 style={{ fontSize: '1.3rem', textAlign: 'center', marginTop: '1rem' }}>your cart is empty select some products <Link to='/' style={{ color: "royalblue" }}>here</Link></h1>}
+      {data.length === 0 && <h1 style={{ fontSize: '1.3rem', textAlign: 'center', marginTop: '2rem' }}>your cart is empty select some products <Link to='/' style={{ color: "royalblue" }}>here</Link></h1>}
       <div className='cart_container'>
         <div className='cart_product'>
           {data.map(p => {
@@ -36,7 +36,7 @@ const CartProducts = () => {
                   <span>{p.quantity}</span>
                   <button onClick={() => dispatch(addToCart(p))}>+</button>
                 </div>
-                <p>totalPrice: ${p.totalPrice.toFixed(2)}</p>
+                <p>totalPrice: ${p.totalPrice}</p>
               </div>
               {/* <div style={{ color: 'red' }} onClick={dispatch(removeToCart(p.id))}><MdCancel className='cancel' /></div> */}
             </div>
