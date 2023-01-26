@@ -56,16 +56,16 @@ export default SingleProduct
 
 
 
-function App() {
-  const notify = () => toast("Wow so easy!");
+// function App() {
+//   const notify = () => toast("Wow so easy!");
 
-  return (
-    <div>
-      <button onClick={notify}>Notify!</button>
-      <ToastContainer />
-    </div>
-  );
-}
+//   return (
+//     <div>
+//       <button onClick={notify}>Notify!</button>
+//       <ToastContainer />
+//     </div>
+//   );
+// }
 
 
 
