@@ -23,7 +23,7 @@ const Header = () => {
       <ul className="header-ul">
         <Link to='/'><li>Home</li></Link>
 
-        <Link to='/about'> <li>About Us</li></Link>
+        <Link to='/cart'> <li>Cart</li></Link>
       </ul>
       <div className="header_content">
         <Link to="/cart">
